@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vine</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <div class="wine-wrapper" v-for="category in wine">
+
+            <h2 class="wine-title" v-html="category.title"></h2>
+            <ul class="wine-container">
+                <li class="wine-item" v-for="item in category.items">
+                    <a :href="'wine' + '/' + category.name + '/' + item.img" target="_blank">
+                        <img class="wine-img" :src="'wine' + '/' + category.name + '/' + item.img" />
+                    </a>
+                    <h3 class="wine-name" v-html="item.name"></h3>
+                    <ul class="wine-about">
+                        <li v-for="list in item.about" v-html="list"></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="libs/vue.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
