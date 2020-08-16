@@ -52,8 +52,13 @@ body {
 }
 
 @media screen and (max-width: 660px) {
+    .wine-wrapper {
+        padding: 10px;
+    }
     .wine-item {
-        width: calc(50% - 40px)
+        width: calc(50% - 30px);
+        margin: 5px;
+        font-size: 12px;
     }
     .wine-img {
         height: 300px;
