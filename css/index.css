@@ -1,7 +1,6 @@
 body {
     font-family: sans-serif;
     background-color: #f8f9fa;
-    line-height: 1.7;
 }
 
 .wine-wrapper {
@@ -44,4 +43,12 @@ body {
 .wine-name {
     margin: 0;
     padding: 10px;
+}
+.wine-type {
+    padding: 10px;
+    text-decoration: underline;
+}
+.wine-grapes {
+    padding: 10px;
+    color: gray;
 }

@@ -19,6 +19,8 @@
                         <img class="wine-img" :src="'wine' + '/' + category.name + '/' + item.img" />
                     </a>
                     <h3 class="wine-name" v-html="item.name"></h3>
+                    <div class="wine-type" v-html="item.type"></div>
+                    <div class="wine-grapes" v-html="item.grapes"></div>
                     <ul class="wine-about">
                         <li v-for="list in item.about" v-html="list"></li>
                     </ul>
