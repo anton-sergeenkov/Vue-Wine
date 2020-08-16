@@ -21,15 +21,17 @@ new Vue({
                 title: 'Чили',
                 name: 'Chile',
                 items: [
-                    { img: '07.jpg', name: 'Sauvignon Blanc. Aves del Sur',         type: 'Белое сухое', grapes: 'Совиньон Блан', about: [] },
-                    { img: '05.jpg', name: 'Casillero del Diablo. Sauvignon Blanc', type: 'Белое сухое', grapes: 'Совиньон Блан', about: ['Не пробовал'] },
+                    { img: '07.jpg', name: 'Sauvignon Blanc. Aves del Sur',         type: 'Белое сухое',         grapes: 'Совиньон Блан', about: [] },
+                    { img: '05.jpg', name: 'Casillero del Diablo. Sauvignon Blanc', type: 'Белое сухое',         grapes: 'Совиньон Блан', about: ['Не пробовал'] },
 
-                    { img: '03.jpg', name: 'Poyen Chardonnay',              type: 'Белое полусухое', grapes: '', about: [] },
-                    { img: '06.jpg', name: 'Poyen Chardonnay Reserva',      type: 'Белое сухое',     grapes: '', about: [] },
-                    { img: '04.jpg', name: '', about: [] },
-                    { img: '02.jpg', name: '', about: [] },
+                    { img: '03.jpg', name: 'Poyen Chardonnay',                      type: 'Белое полусухое',     grapes: '',              about: [] },
+                    { img: '06.jpg', name: 'Poyen Chardonnay Reserva',              type: 'Белое сухое',         grapes: '',              about: ['Не пробовал'] },
+                    { img: '04.jpg', name: '',                                      type: 'Белое сухое',         grapes: '',              about: [] },
 
-                    { img: '01.jpg', name: '', about: [] },
+                    { img: '08.jpg', name: 'Poyen Cabernet Sauvignon / Merlot',     type: 'Красное полусладкое', grapes: '',              about: [] },
+                    { img: '09.jpg', name: 'Poyen Cabernet Sauvignon Reserva',      type: 'Красное сухое',       grapes: '',              about: ['Не пробовал'] },
+                    { img: '02.jpg', name: '',                                      type: '',                    grapes: '',              about: [] },
+                    { img: '01.jpg', name: '',                                      type: '',                    grapes: '',              about: [] },
                 ]
             },
             {
